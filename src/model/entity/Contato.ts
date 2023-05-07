@@ -11,7 +11,12 @@ export class Contato {
     telefone: string,
     email: string,
     dataNascimento: Date
-  ) {}
+  ) {
+    this.nome = nome
+    this.telefone = telefone
+    this.email = email
+    this.dataNascimento = dataNascimento
+  }
 
   get nome(): string {
     return this._nome;

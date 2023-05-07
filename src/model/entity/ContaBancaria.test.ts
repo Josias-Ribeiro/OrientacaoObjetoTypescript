@@ -1,4 +1,4 @@
-import { ContaBancaria } from "./contaBancaria"
+import { ContaBancaria } from "./ContaBancaria"
 
 describe('Testa as funcionalidades de uma conta bancaria', () => {
     

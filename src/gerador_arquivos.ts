@@ -11,12 +11,12 @@ let linhasCsv = "";
 const numeroContatos = 100;
 
 for (let index = 0; index < numeroContatos; index++) {
-  const obj: Contato = {
-    nome: faker.name.fullName(),
-    telefone: faker.phone.number(),
-    email: faker.internet.email(),
-    dataNascimento: faker.date.past(),
-  };
+  const obj: Contato = new Contato 
+    (faker.name.fullName(),
+    faker.phone.number(),
+    faker.internet.email(),
+    faker.date.past())
+  ;
 
   contatos.push(obj);
   const linha = `${obj.nome}, ${obj.telefone},${obj.email},${obj.dataNascimento}`;
