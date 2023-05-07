@@ -1,5 +1,5 @@
 # Orientação a objeto básica usando Typescript
-
+ 
 Projeto criado a partir da playlist do Sidney Sousa no youtube
 
 Utilizado padrão MVC (Model, view, controller)
