@@ -5,8 +5,8 @@ export class ContaBancaria {
 
   constructor(numero: string, agencia: string) {
     this._saldo = 0;
-    this._numero = numero;
-    this._agencia = agencia;
+    this.numero = this._validarNumero(numero) ? numero : "00000-0";
+    this.agencia = this._validarAgencia(agencia) ? agencia : "0000-0";
   }
 
   get agencia(): string {
@@ -18,21 +18,11 @@ export class ContaBancaria {
   }
 
   set numero(valor: string) {
-    const regex = /^\d{5}-\d{1}$/;
-    if (regex.test(valor)) {
-      this._numero = valor;
-    } else {
-      console.log("formato de numero inválido");
-    }
+    this._validarNumero(valor);
   }
 
   set agencia(valor: string) {
-    const regex = /^\d{4}-\d{1}$/;
-    if (regex.test(valor)) {
-      this._agencia = valor;
-    } else {
-      console.log("formato de agencia inválido");
-    }
+    this._validarAgencia(valor);
   }
 
   consultar(): number {
@@ -49,5 +39,23 @@ export class ContaBancaria {
     if (valor >= 0 && this._saldo >= valor) {
       this._saldo -= valor;
     }
+  }
+
+  private _validarNumero(numero: string): boolean {
+    const regex = /^\d{5}-\d{1}$/;
+    if (regex.test(numero)) {
+      this._numero = numero;
+      return true;
+    }
+    return false;
+  }
+
+  private _validarAgencia(agencia: string): boolean {
+    const regex = /^\d{4}-\d{1}$/;
+    if (regex.test(agencia)) {
+      this._agencia = agencia;
+      return true;
+    }
+    return false;
   }
 }
