@@ -26,4 +26,11 @@ describe('Testa as funcionalidades de uma conta bancaria', () => {
         conta.depositar(10)
         expect(conta.consultar()).toBe(10)
     })
+
+    test('O saldo deve atualizar corretamente após a realização do saque', ()=>{
+        const conta = new ContaBancaria('12345-6', '1234-5')
+        conta.depositar(10)
+        conta.sacar(5)
+        expect(conta.consultar()).toBe(5)
+    })
 })
