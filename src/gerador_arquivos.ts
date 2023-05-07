@@ -2,6 +2,7 @@ import { writeFileSync } from "fs";
 import { join } from "path";
 
 import { faker } from "@faker-js/faker";
+import { Contato } from "./model/entity/Contato";
 
 faker.setLocale("pt_BR");
 
@@ -32,9 +33,4 @@ writeFileSync(caminhoArquivoCSV, linhasCsv)
 
 console.log('arquivos gravados')
 
-interface Contato {
-  nome: string;
-  telefone: string;
-  email: string;
-  dataNascimento: Date;
-}
+
