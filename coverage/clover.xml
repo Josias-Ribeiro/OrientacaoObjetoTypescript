@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683486518035" clover="3.2.0">
-  <project timestamp="1683486518035" name="All files">
-    <metrics statements="43" coveredstatements="33" conditionals="26" coveredconditionals="19" methods="19" coveredmethods="14" elements="88" coveredelements="66" complexity="0" loc="43" ncloc="43" packages="1" files="2" classes="2"/>
+<coverage generated="1683509266401" clover="3.2.0">
+  <project timestamp="1683509266401" name="All files">
+    <metrics statements="47" coveredstatements="43" conditionals="26" coveredconditionals="22" methods="19" coveredmethods="19" elements="92" coveredelements="84" complexity="0" loc="47" ncloc="47" packages="1" files="2" classes="2"/>
     <file name="ContaBancaria.ts" path="D:\Projetos Typescript\OrientacaoObjetoTypescript\src\model\entity\ContaBancaria.ts">
       <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
       <line num="1" count="1" type="stmt"/>
@@ -29,27 +29,31 @@
       <line num="59" count="1" type="stmt"/>
     </file>
     <file name="Contato.ts" path="D:\Projetos Typescript\OrientacaoObjetoTypescript\src\model\entity\Contato.ts">
-      <metrics statements="20" coveredstatements="10" conditionals="16" coveredconditionals="9" methods="9" coveredmethods="4"/>
+      <metrics statements="24" coveredstatements="20" conditionals="16" coveredconditionals="12" methods="9" coveredmethods="9"/>
       <line num="1" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="26" count="1" type="cond" truecount="3" falsecount="1"/>
-      <line num="28" count="0" type="stmt"/>
-      <line num="33" count="0" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="22" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="1" type="cond" truecount="3" falsecount="1"/>
       <line num="37" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="40" count="1" type="cond" truecount="3" falsecount="1"/>
-      <line num="42" count="0" type="stmt"/>
-      <line num="47" count="0" type="stmt"/>
-      <line num="51" count="460" type="cond" truecount="3" falsecount="1"/>
-      <line num="52" count="0" type="stmt"/>
-      <line num="56" count="0" type="stmt"/>
-      <line num="60" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="61" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="48" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="51" count="0" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="60" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="63" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
