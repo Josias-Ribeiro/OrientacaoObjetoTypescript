@@ -1,7 +1,7 @@
 export class ContaBancaria {
   private _saldo: number;
-  private _numero: string;
-  private _agencia: string;
+  private _numero: string = '';
+  private _agencia: string = '';
 
   constructor(numero: string, agencia: string) {
     this._saldo = 0;

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683509266401" clover="3.2.0">
-  <project timestamp="1683509266401" name="All files">
-    <metrics statements="47" coveredstatements="43" conditionals="26" coveredconditionals="22" methods="19" coveredmethods="19" elements="92" coveredelements="84" complexity="0" loc="47" ncloc="47" packages="1" files="2" classes="2"/>
+<coverage generated="1683667404329" clover="3.2.0">
+  <project timestamp="1683667404329" name="All files">
+    <metrics statements="49" coveredstatements="45" conditionals="26" coveredconditionals="22" methods="19" coveredmethods="19" elements="94" coveredelements="86" complexity="0" loc="49" ncloc="49" packages="1" files="2" classes="2"/>
     <file name="ContaBancaria.ts" path="D:\Projetos Typescript\OrientacaoObjetoTypescript\src\model\entity\ContaBancaria.ts">
-      <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
+      <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
       <line num="1" count="1" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
       <line num="7" count="5" type="stmt"/>
       <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="9" count="5" type="cond" truecount="2" falsecount="0"/>

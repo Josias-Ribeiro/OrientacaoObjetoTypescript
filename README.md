@@ -12,6 +12,8 @@ Faker: lib usada pra gerar dados "mockados"
 
 Email-validator: lib usada para validar dados do tipo email
 
+CSV-parse: Lib para auxiliar importação csv.
+
 ## Development server
 
 Para rodar o projeto, abra o mesmo no seu editor preferencial e rode o comando npm i (para instalar as dependências do projeto) e posteriormente npm start. Comando deve ser executado no prompt ou no terminal do editor de texto, apontando para a pasta do projeto.
